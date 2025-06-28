@@ -1,4 +1,5 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
+
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
 import os
@@ -89,6 +90,15 @@ def predict():
         "kb_suggestions": kb_suggestions,
         "fallback_to_human": fallback
     })
+
+# ... your other imports & setup remain the same
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+# ✅ Keep your /predict route as is!
+
 
 if __name__ == "__main__":
     app.run(debug=True)

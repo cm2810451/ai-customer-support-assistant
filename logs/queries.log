@@ -12,3 +12,39 @@
 2025-06-28 13:26:01,554 | INFO |  * Debugger PIN: 725-862-596
 2025-06-28 13:26:11,789 | INFO | Query: How do I reset my password? | Answer: How do I reset my password? | Fallback: False | KB IDs: [1, 3]
 2025-06-28 13:26:11,791 | INFO | 127.0.0.1 - - [28/Jun/2025 13:26:11] "POST /predict HTTP/1.1" 200 -
+2025-06-28 13:53:33,434 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 13:53:33,434 | INFO | [33mPress CTRL+C to quit[0m
+2025-06-28 13:53:33,435 | INFO |  * Restarting with stat
+2025-06-28 13:53:44,086 | WARNING |  * Debugger is active!
+2025-06-28 13:53:44,106 | INFO |  * Debugger PIN: 725-862-596
+2025-06-28 13:55:38,891 | INFO | 127.0.0.1 - - [28/Jun/2025 13:55:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-28 13:55:38,944 | INFO | 127.0.0.1 - - [28/Jun/2025 13:55:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-28 13:55:38,945 | INFO | 127.0.0.1 - - [28/Jun/2025 13:55:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-28 13:55:39,095 | INFO | 127.0.0.1 - - [28/Jun/2025 13:55:39] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=VikYc3CrrhAhSP8eT59p HTTP/1.1" 200 -
+2025-06-28 13:55:39,112 | INFO | 127.0.0.1 - - [28/Jun/2025 13:55:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-28 13:58:26,806 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 13:58:26,809 | INFO | [33mPress CTRL+C to quit[0m
+2025-06-28 13:58:26,810 | INFO |  * Restarting with stat
+2025-06-28 13:58:38,141 | WARNING |  * Debugger is active!
+2025-06-28 13:58:38,166 | INFO |  * Debugger PIN: 859-402-627
+2025-06-28 14:01:39,568 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-28 14:01:39,621 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 14:01:39,621 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 14:01:39,627 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:39] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ufCLHGyqRZhuM4iEspnU HTTP/1.1" 200 -
+2025-06-28 14:01:39,650 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-28 14:01:40,447 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-28 14:01:40,457 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-28 14:01:40,458 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-28 14:01:40,464 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=ufCLHGyqRZhuM4iEspnU HTTP/1.1[0m" 304 -
+2025-06-28 14:01:40,468 | INFO | 127.0.0.1 - - [28/Jun/2025 14:01:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-28 14:02:05,674 | INFO |  * Detected change in '/Users/macbook/ai-customer-support-assistant/app.py', reloading
+2025-06-28 14:02:06,863 | INFO |  * Restarting with stat
+2025-06-28 14:02:18,128 | WARNING |  * Debugger is active!
+2025-06-28 14:02:18,149 | INFO |  * Debugger PIN: 859-402-627
+2025-06-28 14:02:18,216 | INFO | 127.0.0.1 - - [28/Jun/2025 14:02:18] "GET / HTTP/1.1" 200 -
+2025-06-28 14:02:52,739 | INFO | Query: How to reset password | Answer: How to reset password. | Fallback: False | KB IDs: [1, 3]
+2025-06-28 14:02:52,757 | INFO | 127.0.0.1 - - [28/Jun/2025 14:02:52] "POST /predict HTTP/1.1" 200 -
+2025-06-28 14:03:14,044 | INFO | Query: what is your name? | Answer: what is your name? | Fallback: False | KB IDs: [1, 2]
+2025-06-28 14:03:14,045 | INFO | 127.0.0.1 - - [28/Jun/2025 14:03:14] "POST /predict HTTP/1.1" 200 -
