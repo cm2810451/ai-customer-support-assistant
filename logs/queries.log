@@ -1,0 +1,14 @@
+2025-06-28 13:24:19,190 | INFO | Use pytorch device_name: mps
+2025-06-28 13:24:19,194 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-28 13:24:24,109 | WARNING |  * Debugger is active!
+2025-06-28 13:24:24,121 | INFO |  * Debugger PIN: 725-862-596
+2025-06-28 13:25:10,871 | INFO |  * Detected change in '/Users/macbook/ai-customer-support-assistant/app.py', reloading
+2025-06-28 13:25:17,550 | INFO | Use pytorch device_name: mps
+2025-06-28 13:25:17,551 | INFO | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-28 13:25:21,508 | WARNING |  * Debugger is active!
+2025-06-28 13:25:21,521 | INFO |  * Debugger PIN: 725-862-596
+2025-06-28 13:25:47,835 | INFO |  * Detected change in '/Users/macbook/ai-customer-support-assistant/app.py', reloading
+2025-06-28 13:26:01,537 | WARNING |  * Debugger is active!
+2025-06-28 13:26:01,554 | INFO |  * Debugger PIN: 725-862-596
+2025-06-28 13:26:11,789 | INFO | Query: How do I reset my password? | Answer: How do I reset my password? | Fallback: False | KB IDs: [1, 3]
+2025-06-28 13:26:11,791 | INFO | 127.0.0.1 - - [28/Jun/2025 13:26:11] "POST /predict HTTP/1.1" 200 -
